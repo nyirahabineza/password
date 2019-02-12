@@ -1,4 +1,4 @@
-
+class User:
     """
     Class that generates new instances of User
     """
@@ -30,6 +30,6 @@
         save_user method saves user objects into user_list
         '''
 
-        User.user_list.append(self)
+       
 
         
