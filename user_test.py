@@ -18,7 +18,7 @@ class TestUser(unittest.TestCase):
         self.new_user= User("Cecile","Nyirahabineza","0728236949","habcecile@gmail.com") # create contact object
 
 
-    
+    def test_init(self):
         '''
         test_init test case to test if the object is initialized properly
         '''
@@ -29,7 +29,7 @@ class TestUser(unittest.TestCase):
         self.assertEqual(self.new_user.email,"habcecile@gmail.com")
 
 
-    def test_save_user(self):
+    
         '''
         test_save_user test case to test if the contact object is saved into
          the user list
