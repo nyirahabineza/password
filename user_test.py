@@ -39,7 +39,7 @@ class TestUser(unittest.TestCase):
 
 # Items up here...
 
-    def test_save_multiple_user(self):
+  
             '''
             test_save_multiple_user to check if we can save multiple user
             objects to our user_list
@@ -96,7 +96,7 @@ class TestUser(unittest.TestCase):
 
             self.new_user.delete_user()# Deleting a contact object
             self.assertEqual(len(User.user_list),1)
-            :
+            def delete_user(self):
         '''
             delete_user method deletes a saved user from the user_list
         '''
