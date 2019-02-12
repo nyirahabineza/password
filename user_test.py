@@ -50,7 +50,7 @@ class TestUser(unittest.TestCase):
             self.assertEqual(len(User.user_list),2)
 
             # setup and class creation up here
-   
+    def tearDown(self):
             '''
             tearDown method that does clean up after each test case has run.
             '''
@@ -86,7 +86,7 @@ class TestUser(unittest.TestCase):
             self.assertEqual(len(User.user_list),2)
 
             # More tests above
-    def test_delete_user(self):
+    
             '''
             test_delete_contact to test if we can remove a user from our user list
             '''
