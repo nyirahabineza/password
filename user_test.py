@@ -11,14 +11,14 @@ class TestUser(unittest.TestCase):
     '''
      # Items up here .......
 
-   
+    def setUp(self):
         '''
         Set up method to run before each test cases.
         '''
         self.new_user= User("Cecile","Nyirahabineza","0728236949","habcecile@gmail.com") # create contact object
 
 
-    def test_init(self):
+    
         '''
         test_init test case to test if the object is initialized properly
         '''
