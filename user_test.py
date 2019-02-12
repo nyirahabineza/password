@@ -35,11 +35,11 @@ class TestUser(unittest.TestCase):
          the user list
         '''
         self.new_user.save_user() # saving the new user
-        
+        self.assertEqual(len(User.user_list),3)
 
 # Items up here...
 
-    def test_save_multiple_user(self):
+   
             '''
             test_save_multiple_user to check if we can save multiple user
             objects to our user_list
