@@ -1,5 +1,5 @@
 import unittest # Importing the unittest module
-from user import User # Importing the user class
+ # Importing the user class
 
 class TestUser(unittest.TestCase):
 
@@ -105,7 +105,7 @@ class TestUser(unittest.TestCase):
         test_user = User("nyirahabineza","cecile","0728236949","habcecile@gmail.com") # new contact
         test_user.save_user()
 
-       ("0728236949")
+        found_user = User.find_by_number("0728236949")
 
         self.assertEqual(found_user.email,test_user.email)        
 if __name__ == '__main__':
