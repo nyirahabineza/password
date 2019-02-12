@@ -43,8 +43,8 @@ class User:
             Contact of person that matches the number.
         '''
 
-        
-            if contact.phone_number == number:
+        for user in cls.user_list:
+           
                 return contact
 
         
