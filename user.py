@@ -44,7 +44,7 @@ class User:
         '''
 
         for user in cls.user_list:
-           
-                return contact
+            if user.phone_number == number:
+                
 
         
