@@ -39,7 +39,7 @@ class TestUser(unittest.TestCase):
 
 # Items up here...
 
-   
+    def test_save_multiple_user(self):
             '''
             test_save_multiple_user to check if we can save multiple user
             objects to our user_list
@@ -50,7 +50,7 @@ class TestUser(unittest.TestCase):
             self.assertEqual(len(User.user_list),2)
 
             # setup and class creation up here
-    def tearDown(self):
+   
             '''
             tearDown method that does clean up after each test case has run.
             '''
