@@ -41,4 +41,5 @@ $ git clone https://github.com/nyirahabineza/password.git
   contact 0728236949
   
 ##License
-**[MIT]https://github.com/nyirahabineza/password.git ©2019 nyirahabineza cecile
+
+**[MIT]https://github.com/nyirahabineza/password.git year 2019 *©nyirahabineza cecile
