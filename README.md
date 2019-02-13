@@ -15,7 +15,7 @@ Generate a password for a new credential/account
 Copy my credentials to the clipboard
 Specifications
 
-#Behaviour	Input	Output
+##Setup Instruction
 
 Display codes for navigation	In terminal: $./password_locker.py	Welcome, choose an option: ca-Create Account, li-Log In, ex-Exit
 Display prompt for creating an account	Enter: ca	Enter your first name, last name and password
@@ -26,12 +26,12 @@ Display a list of credentials	Enter: dc	Prints a list of saved credentials
 Display prompt for which credential to copy	Enter: copy	Enter the site name of the credential you wish to copy.
 
 ##SetUp / Installation Requirements
-Prerequisites
-python3.6
-pip
-pyperclip
-xclip
-Cloning
+1.Prerequisites
+2.python3.6
+3.pip
+4.pyperclip
+5.xclip
+6.Cloning
 
 ##Preview
 $ git clone https://github.com/nyirahabineza/password.git
