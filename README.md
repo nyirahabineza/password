@@ -22,12 +22,12 @@ Display prompt for creating a credential	Enter: cc	Enter the site name, your use
 Display a list of credentials	Enter: dc	Prints a list of saved credentials
 Display prompt for which credential to copy	Enter: copy	Enter the site name of the credential you wish to copy.
 ## SetUp / Installation Requirements
-Prerequisites
-python3.6
-pip
-pyperclip
-xclip
-Cloning
+
+1.Prerequisites
+2.python3.6
+3.pip
+4.pyperclip
+5.Cloning
 ## Preview
 
   $ git clone https://github.com/nyirahabineza/password.git
