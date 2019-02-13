@@ -48,7 +48,7 @@ Testing the Application
   $ python3.6 user_credentials_test.py
   ## support and contact details
   contact 0728236949
-## Technologies Used
-Python3.6
+  email habcecile@gmail.com
+
 ## License
-MIT ©2019 nyirahabineza cecile
+[MIT]https://github.com/nyirahabineza/password.git year 2019 ©nyirahabineza cecile
