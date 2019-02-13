@@ -37,8 +37,6 @@ Cloning
 ##Preview
 
   $ git clone https://github.com/nyirahabineza/password.git
-  $ cd Password-Locker
-  $ python3.6 user_credentials_test.py
   
   ##support and contact details
   
