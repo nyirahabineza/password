@@ -1,4 +1,4 @@
-##Password Locker
+##PROJECT Password Locker
 
 ##date 14/02/2019 By nyirahabineza cecile
 
