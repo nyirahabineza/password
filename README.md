@@ -30,8 +30,8 @@ Display prompt for which credential to copy	Enter: copy	Enter the site name of t
 2.python3.6
 3.pip
 4.pyperclip
-5.xclip
-6.Cloning
+5.Cloning
+
 
 ##Preview
 $ git clone https://github.com/nyirahabineza/password.git
@@ -40,9 +40,5 @@ $ git clone https://github.com/nyirahabineza/password.git
   ##support and contact details
   contact 0728236949
   
-
-##Technologies Used
-Python3.6
-
 ##License
 **[MIT]https://github.com/nyirahabineza/password.git ©2019 nyirahabineza cecile
