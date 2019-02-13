@@ -1,9 +1,10 @@
 #!/usr/bin/env python3.6
+from user import User
 def create_user(fname,lname,phone,email):
     '''
     Function to create a new user
     '''
-    new_user = User(firstname,lastname,phone,email)
+    new_user = User(fname,lname,phone,email)
     return new_user
 def save_users(user):
     '''
@@ -59,9 +60,9 @@ def main():
 
                             print("Email address ...")
                             e_address = input()
-                            save_users(create_user(first_name,last_name,phone_number,email_address)) # create and save new user.
+                            save_users(create_user(f_name,l_name,p_number,e_address)) # create and save new user.
                             print ('\n')
-                            print(f"New User {fast_name} {last_name} created")
+                            print(f"New User {f_name} {l_name} created")
                             print ('\n')
 
                     elif short_code == 'dc':
@@ -100,4 +101,4 @@ def main():
                     else:
                             print("I really didn't get that. Please use the short codes")
 if __name__ == '__main__':
- main()
+    main()
