@@ -34,7 +34,7 @@ Display prompt for which credential to copy	Enter: copy	Enter the site name of t
 6.Cloning
 
 ##Preview
-$ git clone https://github.com/nyirahabineza/password.gith
+$ git clone https://github.com/nyirahabineza/password.git
   
   
   ##support and contact details
@@ -45,4 +45,4 @@ $ git clone https://github.com/nyirahabineza/password.gith
 Python3.6
 
 ##License
-**[MIT] ©2019 nyirahabineza cecile
+**[MIT]https://github.com/nyirahabineza/password.git ©2019 nyirahabineza cecile
