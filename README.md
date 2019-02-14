@@ -35,11 +35,11 @@ Display prompt for which credential to copy	Enter: copy	Enter the site name of t
 
 ## Preview
 
-  $ git clone https://github.com/nyirahabineza/password.git
+  $ git clone https://github.com/nyirahabineza/password.git,
   $ python3.6 user_credentials_test.py
   
   ## support and contact details
-  contact 0728236949
+  contact 0728236949,
   email habcecile@gmail.com
 
 ## License
