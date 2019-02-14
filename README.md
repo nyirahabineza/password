@@ -36,16 +36,8 @@ Display prompt for which credential to copy	Enter: copy	Enter the site name of t
 ## Preview
 
   $ git clone https://github.com/nyirahabineza/password.git
-  $ cd Password-Locker
-Running the Application
-To run the application, in your projects:
-
-  $ chmod +x password_locker.py
-  $ ./password_locker.py
-Testing the Application
-
-
   $ python3.6 user_credentials_test.py
+  
   ## support and contact details
   contact 0728236949
   email habcecile@gmail.com
